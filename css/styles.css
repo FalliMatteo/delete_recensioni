@@ -1,0 +1,8 @@
+.error{
+    color: red;
+}
+
+td, th {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
