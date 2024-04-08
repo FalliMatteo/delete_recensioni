@@ -16,6 +16,9 @@
     <h1>Elimina recensioni</h1>
     <?php
         echo $recensioni;
+        if(isset($_SESSION["message"])){
+            echo $_SESSION["message"];
+        }
     ?>
 </body>
 </html>
